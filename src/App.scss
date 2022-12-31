@@ -1,0 +1,45 @@
+// Google Fonts
+//@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500&display=swap');
+
+// Font Variables
+//$main-font: 'IBM Plex Sans Thai', sans-serif;
+$main-font: 'Prompt', sans-serif;
+
+@import 'variable';
+
+@import 'main';
+
+* {
+	font-family: $main-font  !important;
+}
+
+#aw-chat-bot-app {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: #F3F5F9;
+
+	/* width */
+	::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	/* Track */
+	// ::-webkit-scrollbar-track {
+	//   box-shadow: inset 0 0 5px grey;
+	//   border-radius: 10px;
+	// }
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #D5D6DB;
+		border-radius: 8px;
+	}
+}

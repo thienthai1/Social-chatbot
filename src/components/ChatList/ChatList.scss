@@ -1,0 +1,19 @@
+.chatlist-style {
+  background-color: white;
+  border-radius: 32px 32px 0px 0px;
+
+  & .chatlist-title {
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  & .chatlist-parent {
+    position: relative;
+    height: 100%;
+  }
+
+  & .chatlist-scroll {
+    position: absolute;
+    height: 100%;
+  }
+}

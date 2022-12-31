@@ -1,0 +1,67 @@
+.message-item {
+
+	.speech-bubble {
+		&.s {
+			background: #EBF1FD;
+		}
+
+		&.r {
+			background: #EFEFEF;
+		}
+
+		position: relative;
+		border-radius: 0.4em;
+		color: #2c4877;
+		font-size: 14px;
+		font-weight: 400;
+		max-width: 70%;
+	}
+
+	.speech-bubble:after {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 50%;
+		width: 0;
+		height: 0;
+		border: 2px solid transparent;
+		border-left-color: #00aabb;
+		border-right: 0;
+		border-bottom: 0;
+		margin-top: -1px;
+		margin-right: -2px;
+	}
+
+
+
+	& img {
+		max-width: 70%;
+		max-height: 250px;
+		border-radius: 0.4em;
+	}
+
+	& .timestamp-text {
+		font-size: 0.6rem;
+		color: #8091ad;
+	}
+
+	& .file-attachments {
+		width: 24px;
+		height: 24px;
+	}
+
+	& .file-attachments-box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #5A91EE;
+		border-radius: 50%;
+		width: 36px;
+		height: 36px;
+	}
+
+	& .fileSize {
+		font-size: 10px;
+		opacity: 0.5;
+	}
+}

@@ -1,0 +1,17 @@
+.social-page-select {
+  justify-content: space-between;
+  background-color: #EAEFF8;
+  border-radius: 16px;
+  padding: 8px 16px 8px 16px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+
+  & span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c4876;
+  }
+
+  & img {
+    padding-top: 2px;
+  }
+}

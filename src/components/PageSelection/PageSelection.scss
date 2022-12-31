@@ -1,0 +1,132 @@
+//Page selection zone
+
+.page-selection-section {
+  z-index: 100;
+  background: #FFFFFF;
+  box-shadow: 4px 4px 7px rgb(0 0 0 / 7%), 6px 6px 36px rgb(0 0 0 / 6%);
+  border-radius: 10px;
+  position: absolute;
+  width: 92%;
+  left: 13px;
+  overflow-x: scroll;
+  height: 0;
+  margin-bottom: -2px;
+}
+
+.page-selection-header {
+  padding-left: 21px;
+  padding-top: 22px;
+}
+
+.chat-header-text {
+  position: relative;
+  left: 8px;
+  top: -5px;
+}
+
+.page-selection-content {
+  font-weight: lighter;
+  font-size: 15px;
+  color: #656363;
+
+}
+
+.page-selection-content ul {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+}
+
+.page-selection-content ul li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+
+  .red-noti-count {
+    background-color: red;
+    padding: 1px 3px 1px 3px;
+    font-size: 8px;
+    color: white;
+    border-radius: 6px 6px 6px 6px;
+    position: relative;
+    top: -3px;
+    left: 5px;
+  }
+
+}
+
+.page-selection-content ul li:hover {
+  background-color: #F3F3F3;
+}
+
+// Social Media Select Zone
+.social-media-select {
+  background: #FFFFFF;
+  box-shadow: 4px 4px 7px rgb(0 0 0 / 7%), 6px 6px 36px rgb(0 0 0 / 6%);
+  border-radius: 10px;
+  position: absolute;
+  width: 206px;
+  left: 93px;
+  display: none;
+  overflow-y: hidden;
+  transition: max-height 1s ease-in-out;
+  z-index: 100;
+}
+
+.social-media-select-header {
+  padding-top: 13px;
+  padding-left: 23px;
+  font-size: 15px;
+}
+
+
+.social-media-select-content {
+
+  position: relative;
+  top: -13px;
+
+  .social-media-select-content-text {
+    position: relative;
+    top: -5px;
+    left: 9px;
+  }
+
+  .view-more-text {
+    position: relative;
+    left: 6px;
+    top: -4px;
+    font-size: 14px;
+  }
+
+  img {
+    width: 24px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    padding-left: 24px;
+    padding-top: 14px;
+    position: relative;
+
+    .tickzone {
+      position: absolute;
+      right: 22px;
+      top: 15px;
+      cursor: pointer;
+    }
+
+    input {
+      display: none;
+    }
+
+  }
+
+}

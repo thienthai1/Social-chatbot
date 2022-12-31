@@ -1,0 +1,56 @@
+.message-footer {
+
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+	& textarea {
+		width: 98%;
+		max-width: 98%;
+		font-size: 16px;
+		line-height: 1.3;
+		resize: none;
+		max-height: 100px;
+		background-color: #F3F5F9;
+		border-radius: 16px;
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		padding: 4px 10px 4px 10px;
+		box-sizing: border-box;
+		color: #2c4877;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+		overflow-y: scroll;
+
+	}
+
+	& textarea::-webkit-scrollbar {
+		display: none;
+	}
+
+	& textarea {
+		outline: none;
+	}
+
+	& button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		border-radius: 50%;
+		width: 29px;
+		height: 29px;
+		border: none;
+		cursor: pointer;
+	}
+
+	& .button-send {
+		background-color: #5A91EE;
+	}
+
+	& .button-attached {
+		background-color: #EBF1FD;
+		border: 1px solid #5A91EE;
+	}
+
+	& .img-send {
+		margin-top: 2px;
+		margin-right: 2px;
+	}
+}

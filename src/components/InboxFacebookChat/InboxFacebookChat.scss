@@ -1,0 +1,201 @@
+// Facebook inbox
+.search-box {
+  background-color: #f3f3f37d;
+  height: 41px;
+  width: 94%;
+  border-radius: 6px;
+  position: relative;
+
+  img {
+    padding-left: 17px;
+    padding-top: 11px;
+  }
+
+  input {
+    background-color: transparent;
+    border-style: none;
+    position: relative;
+    left: 6px;
+    top: -4px;
+    font-size: 13px;
+    font-weight: lighter;
+  }
+
+  input::placeholder {
+    color: #c4c4c4;
+  }
+
+  input:focus,
+  select:focus,
+  textarea:focus,
+  button:focus {
+    outline: none;
+  }
+
+  img.clear-inbox {
+    position: absolute;
+    right: 14px;
+    cursor: pointer;
+  }
+
+}
+
+
+.select-navigation {
+
+  ul {
+
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      float: left;
+      margin-right: 15px;
+      color: #1877f2;
+      cursor: pointer;
+      font-weight: 400;
+      font-size: 16px;
+    }
+
+    .active {
+      border-style: solid;
+      border-width: 0px 0px 3px 0px;
+      border-color: #1877f2;
+    }
+
+    .count-noti {
+      color: white;
+      background-color: #1877f2;
+      border-radius: 20px;
+      font-size: 7px;
+      padding: 1px 6px 1px 5px;
+      font-weight: 700;
+      position: relative;
+      left: 4px;
+      top: -3px;
+    }
+
+  }
+
+  //Line Mode
+  &.linetoken {
+
+    ul {
+
+      li {
+        color: #06C755;
+        border-color: #06C755;
+      }
+
+      .count-noti {
+        background-color: #06C755;
+      }
+    }
+
+  }
+
+}
+
+.chat-list-zone {
+  clear: both;
+  position: relative;
+  top: 11px;
+  height: 348px;
+  overflow-y: scroll;
+  width: 322px;
+  left: -7px;
+  z-index: 0;
+
+  .chat-list-zone-friendname {
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .chat-list-zone-friendmesaage {
+    font-weight: 100;
+    color: #7A7A7A;
+    font-size: 14px;
+  }
+
+  .chatlistzone-groupchat {
+    position: relative;
+    height: 64px;
+    width: 95%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .group-text-chatlist {
+    position: absolute;
+    top: 19px;
+    left: 78px;
+  }
+
+  .chat-list-timeandnoi-group {
+    position: absolute;
+    top: 13px;
+    right: 13px;
+  }
+
+  .chat-list-delivery-time {
+    color: #d9d7d7;
+    font-size: 13px;
+    margin-bottom: 7px;
+  }
+
+  .active {
+    background-color: #f7f5f5;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    cursor: pointer;
+  }
+
+  img {
+    position: relative;
+    left: 11px;
+    top: 3px;
+  }
+
+  .count-noti {
+    color: white;
+    background-color: #1877f2;
+    border-radius: 20px;
+    padding: 5px 10px 5px 9px;
+    font-size: 10px;
+    position: relative;
+    top: -4px;
+    left: 4px;
+
+  }
+
+  .count-noti-text {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+  }
+
+  //Line Mode
+  &.linetoken {
+
+    ul {
+
+      .count-noti {
+        background-color: #06C755;
+      }
+
+      .active {
+        background-color: white;
+      }
+
+    }
+
+
+  }
+
+}

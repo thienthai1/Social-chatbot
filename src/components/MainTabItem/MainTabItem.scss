@@ -1,0 +1,22 @@
+.MainTabItem {
+	border-radius: 12px;
+	color: #8091ad;
+
+	&>span {
+		text-transform: capitalize;
+		font-size: 18px;
+		font-weight: 500;
+	}
+
+	&.active {
+		color: white;
+
+		&.line {
+			background: #06C755;
+		}
+
+		&.facebook {
+			background: #1877F2;
+		}
+	}
+}

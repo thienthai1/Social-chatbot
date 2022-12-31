@@ -1,0 +1,47 @@
+.select-dialog {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-box-shadow: inset 0rem 1rem 200rem #000000;
+  box-shadow: inset 0rem 1rem 200rem #000000;
+  bottom: 0;
+
+  & .content-dialog {
+    position: absolute;
+    background-color: white;
+    height: 50%;
+    bottom: 0;
+    border-radius: 32px 32px 0px 0px;
+  }
+
+  & .dialog-header {
+    background-color: #5A91EE1A;
+    padding: 8px 16px 8px 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+  }
+
+  & .dialog-title {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2c4877;
+  }
+
+  & .close-dialog {
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    color: #8091ad;
+  }
+
+  & option {
+    font-size: 16px;
+    font-weight: 400;
+    background-color: white;
+    padding-left: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+}

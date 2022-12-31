@@ -1,0 +1,18 @@
+.add-new-contact {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+
+  .header {
+    justify-content: space-between;
+    font-size: 18px;
+    padding-top: 6px;
+  }
+
+  .form {
+    margin: 20px 20px 1px 20px;
+  }
+
+}

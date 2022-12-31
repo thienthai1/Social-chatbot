@@ -1,0 +1,24 @@
+.message-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  .center-data {
+    margin: 0 auto;
+  }
+
+  .name-messageheader {
+    font-size: 16px;
+    font-weight: 500;
+    color: #2c4877;
+  }
+
+  button {
+    border: none;
+    background-color: white;
+  }
+
+  .img-style-message {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+  }
+}
